@@ -10,7 +10,7 @@ export const cardsData = [
       "Repair Under Sink Plumbing",
     ],
     icon: "#icon-tap",
-    color: "green",
+     color: "#179D2E",
   },
   {
     id: 2,

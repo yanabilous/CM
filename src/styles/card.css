@@ -1,11 +1,11 @@
 .title-card {
     color: #181833;
     font-family: "Inter", sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 120%; /* 43.2px */
-    letter-spacing: 2px;
+    line-height: 120%;
+    letter-spacing: 1px;
     margin-bottom: 24px;
 }
 
@@ -19,21 +19,20 @@
     gap: 24px;
 }
 
-/*header {*/
-/*    !*width: 100%;*!*/
-/*    !*display: flex;*!*/
-/*    padding-bottom: 24px;*/
-/*}*/
-.main-text{
+.main-text {
     margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
 .text-content {
     color: #2D2D2D;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 36px */
+    font-weight: 300;
+    line-height: 150%;
     letter-spacing: 0,5px;
     margin-bottom: 12px;
 
@@ -41,28 +40,30 @@
 
 .text-content {
     position: relative;
-    padding-left: 1.5em; /* Adjust as needed */
+    padding-left: 1.5em;
 }
 
 .text-content::before {
-    content: '•'; /* You can change this to any marker */
+    content: '•';
     position: absolute;
     left: 0;
-    color: black; /* Change marker color here */
-    font-size: 1.5em; /* Adjust as needed */
+    top: 4px;
+    color: black;
+    font-size: 1.1em;
     line-height: 1;
 }
 
 .link {
     position: absolute;
-    /*margin-top: 24px;*/
     bottom: 24px;
     right: 24px;
     color: #2D2D2D;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 36px */
+    font-weight: 300;
+    line-height: 150%;
     text-decoration-line: underline;
+
+
 }
