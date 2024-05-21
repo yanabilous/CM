@@ -4,8 +4,7 @@ function CardIcon({iconName, className, color}) {
   return (
     <div className="header">
       <svg className={`${className} img`} style={{fill: color}}>
-        {/*<use href={Icons + iconName}></use>*/}
-        <use href={`#${iconName}`} />
+        <use href={Icons + iconName}></use>
       </svg>
     </div>
   );
